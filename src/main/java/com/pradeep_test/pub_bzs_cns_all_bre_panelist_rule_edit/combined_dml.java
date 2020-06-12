@@ -6,12 +6,57 @@ package com.pradeep_test.pub_bzs_cns_all_bre_panelist_rule_edit;
 
 public class combined_dml implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public combined_dml() {
-    }
+	@org.kie.api.definition.type.Label(value = "panelist unique identifier")
+	private java.math.BigDecimal panelist_id;
+	@org.kie.api.definition.type.Label(value = "month")
+	private java.math.BigDecimal ppmonth;
+	private java.lang.String npd_attr_6;
+	private java.math.BigDecimal npd_attr_94;
 
+	public combined_dml() {
+	}
 
+	public java.math.BigDecimal getPanelist_id() {
+		return this.panelist_id;
+	}
 
+	public void setPanelist_id(java.math.BigDecimal panelist_id) {
+		this.panelist_id = panelist_id;
+	}
+
+	public java.math.BigDecimal getPpmonth() {
+		return this.ppmonth;
+	}
+
+	public void setPpmonth(java.math.BigDecimal ppmonth) {
+		this.ppmonth = ppmonth;
+	}
+
+	public java.lang.String getNpd_attr_6() {
+		return this.npd_attr_6;
+	}
+
+	public void setNpd_attr_6(java.lang.String npd_attr_6) {
+		this.npd_attr_6 = npd_attr_6;
+	}
+
+	public java.math.BigDecimal getNpd_attr_94() {
+		return this.npd_attr_94;
+	}
+
+	public void setNpd_attr_94(java.math.BigDecimal npd_attr_94) {
+		this.npd_attr_94 = npd_attr_94;
+	}
+
+	public combined_dml(java.math.BigDecimal panelist_id,
+			java.math.BigDecimal ppmonth, java.lang.String npd_attr_6,
+			java.math.BigDecimal npd_attr_94) {
+		this.panelist_id = panelist_id;
+		this.ppmonth = ppmonth;
+		this.npd_attr_6 = npd_attr_6;
+		this.npd_attr_94 = npd_attr_94;
+	}
 
 }
