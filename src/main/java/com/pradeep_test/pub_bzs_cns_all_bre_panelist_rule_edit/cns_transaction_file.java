@@ -17,6 +17,11 @@ public class cns_transaction_file implements java.io.Serializable {
 
     private	long panelist_attr_0;
     private	long panelist_attr_1;
+    private	long panelist_attr_10;
+    private	long panelist_attr_11;
+    private	long panelist_attr_12;
+    private	long panelist_attr_13;
+    
 
     private	String business;
     private	String data_source;
@@ -6338,7 +6343,39 @@ public class cns_transaction_file implements java.io.Serializable {
         }
     
         public void setPanelist_attr_1(long panelist_attr_1) {
-            this.panelist_attr_0 = panelist_attr_1;
+            this.panelist_attr_1 = panelist_attr_1;
     }
-
+    
+        public long getPanelist_attr_10() {
+            return panelist_attr_10;
+        }
+    
+        public void setPanelist_attr_10(long panelist_attr_10) {
+            this.panelist_attr_10 = panelist_attr_10;
+    }
+    
+            public long getPanelist_attr_11() {
+            return panelist_attr_11;
+        }
+    
+        public void setPanelist_attr_11(long panelist_attr_11) {
+            this.panelist_attr_11 = panelist_attr_11;
+    }
+    
+            public long getPanelist_attr_12() {
+            return panelist_attr_12;
+        }
+    
+        public void setPanelist_attr_12(long panelist_attr_12) {
+            this.panelist_attr_12 = panelist_attr_12;
+    }
+            public long getPanelist_attr_13() {
+            return panelist_attr_13;
+        }
+    
+        public void setPanelist_attr_13(long panelist_attr_13) {
+            this.panelist_attr_13 = panelist_attr_13;
+    }
+    
+    
 }
