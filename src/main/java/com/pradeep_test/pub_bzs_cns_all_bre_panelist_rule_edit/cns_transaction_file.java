@@ -12,16 +12,22 @@ public class cns_transaction_file implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "panelist_attr_1")
+	@org.kie.api.definition.type.Label("panelist_attr_1")
 	private java.math.BigDecimal panelist_attr_1;
-	@org.kie.api.definition.type.Label(value = "panelist_attr_2")
+	@org.kie.api.definition.type.Label("panelist_attr_2")
 	private java.math.BigDecimal panelist_attr_2;
-	@org.kie.api.definition.type.Label(value = "panelist_attr_3")
+	@org.kie.api.definition.type.Label("panelist_attr_3")
 	private java.math.BigDecimal panelist_attr_3;
-	@org.kie.api.definition.type.Label(value = "panelist_attr_0")
+	@org.kie.api.definition.type.Label("panelist_attr_0")
 	private java.math.BigDecimal panelist_attr_0;
-	@org.kie.api.definition.type.Label(value = "panelist_attr_10")
+	@org.kie.api.definition.type.Label("panelist_attr_10")
 	private java.math.BigDecimal panelist_attr_10;
+
+	@org.kie.api.definition.type.Label(value = "panelist_attr_12")
+	private java.math.BigDecimal panelist_attr_12;
+
+	@org.kie.api.definition.type.Label(value = "panelist_attr_13")
+	private java.math.BigDecimal panelist_attr_13;
 
 	public cns_transaction_file() {
 	}
@@ -6224,6 +6230,22 @@ public class cns_transaction_file implements java.io.Serializable {
 
 	public void setPanelist_attr_10(java.math.BigDecimal panelist_attr_10) {
 		this.panelist_attr_10 = panelist_attr_10;
+	}
+
+	public java.math.BigDecimal getPanelist_attr_12() {
+		return this.panelist_attr_12;
+	}
+
+	public void setPanelist_attr_12(java.math.BigDecimal panelist_attr_12) {
+		this.panelist_attr_12 = panelist_attr_12;
+	}
+
+	public java.math.BigDecimal getPanelist_attr_13() {
+		return this.panelist_attr_13;
+	}
+
+	public void setPanelist_attr_13(java.math.BigDecimal panelist_attr_13) {
+		this.panelist_attr_13 = panelist_attr_13;
 	}
 
 }
