@@ -8,12 +8,24 @@ public class combined_dml implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "panelist unique identifier")
+	@org.kie.api.definition.type.Label("panelist unique identifier")
 	private java.math.BigDecimal panelist_id;
-	@org.kie.api.definition.type.Label(value = "month")
+	@org.kie.api.definition.type.Label("month")
 	private java.math.BigDecimal ppmonth;
 	private java.lang.String npd_attr_6;
 	private java.math.BigDecimal npd_attr_94;
+
+	@org.kie.api.definition.type.Label(value = "npd_attr_12")
+	private java.math.BigDecimal npd_attr_12;
+
+	@org.kie.api.definition.type.Label(value = "npd_attr_13")
+	private java.math.BigDecimal npd_attr_13;
+
+	@org.kie.api.definition.type.Label(value = "npd_attr_1")
+	private java.math.BigDecimal npd_attr_1;
+
+	@org.kie.api.definition.type.Label(value = "npd_attr_0")
+	private java.math.BigDecimal npd_attr_0;
 
 	public combined_dml() {
 	}
@@ -50,13 +62,51 @@ public class combined_dml implements java.io.Serializable {
 		this.npd_attr_94 = npd_attr_94;
 	}
 
+	public java.math.BigDecimal getNpd_attr_12() {
+		return this.npd_attr_12;
+	}
+
+	public void setNpd_attr_12(java.math.BigDecimal npd_attr_12) {
+		this.npd_attr_12 = npd_attr_12;
+	}
+
+	public java.math.BigDecimal getNpd_attr_13() {
+		return this.npd_attr_13;
+	}
+
+	public void setNpd_attr_13(java.math.BigDecimal npd_attr_13) {
+		this.npd_attr_13 = npd_attr_13;
+	}
+
+	public java.math.BigDecimal getNpd_attr_1() {
+		return this.npd_attr_1;
+	}
+
+	public void setNpd_attr_1(java.math.BigDecimal npd_attr_1) {
+		this.npd_attr_1 = npd_attr_1;
+	}
+
+	public java.math.BigDecimal getNpd_attr_0() {
+		return this.npd_attr_0;
+	}
+
+	public void setNpd_attr_0(java.math.BigDecimal npd_attr_0) {
+		this.npd_attr_0 = npd_attr_0;
+	}
+
 	public combined_dml(java.math.BigDecimal panelist_id,
 			java.math.BigDecimal ppmonth, java.lang.String npd_attr_6,
-			java.math.BigDecimal npd_attr_94) {
+			java.math.BigDecimal npd_attr_94, java.math.BigDecimal npd_attr_12,
+			java.math.BigDecimal npd_attr_13, java.math.BigDecimal npd_attr_1,
+			java.math.BigDecimal npd_attr_0) {
 		this.panelist_id = panelist_id;
 		this.ppmonth = ppmonth;
 		this.npd_attr_6 = npd_attr_6;
 		this.npd_attr_94 = npd_attr_94;
+		this.npd_attr_12 = npd_attr_12;
+		this.npd_attr_13 = npd_attr_13;
+		this.npd_attr_1 = npd_attr_1;
+		this.npd_attr_0 = npd_attr_0;
 	}
 
 }
