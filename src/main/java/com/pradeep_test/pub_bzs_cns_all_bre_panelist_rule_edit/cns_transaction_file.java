@@ -12,22 +12,6 @@ public class cns_transaction_file implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label("panelist_attr_1")
-	private java.math.BigDecimal panelist_attr_1;
-	@org.kie.api.definition.type.Label("panelist_attr_2")
-	private java.math.BigDecimal panelist_attr_2;
-	@org.kie.api.definition.type.Label("panelist_attr_3")
-	private java.math.BigDecimal panelist_attr_3;
-	@org.kie.api.definition.type.Label("panelist_attr_0")
-	private java.math.BigDecimal panelist_attr_0;
-	@org.kie.api.definition.type.Label("panelist_attr_10")
-	private java.math.BigDecimal panelist_attr_10;
-
-	@org.kie.api.definition.type.Label(value = "panelist_attr_12")
-	private java.math.BigDecimal panelist_attr_12;
-
-	@org.kie.api.definition.type.Label(value = "panelist_attr_13")
-	private java.math.BigDecimal panelist_attr_13;
 
 	public cns_transaction_file() {
 	}
