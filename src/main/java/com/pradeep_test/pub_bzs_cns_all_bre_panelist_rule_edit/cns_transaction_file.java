@@ -32,6 +32,14 @@ public class cns_transaction_file implements java.io.Serializable {
 	public cns_transaction_file() {
 	}
 
+	private long panelist_attr_0;
+	private long panelist_attr_1;
+	private long panelist_attr_2;
+	private long panelist_attr_10;
+	private long panelist_attr_11;
+	private long panelist_attr_12;
+	private long panelist_attr_13;
+	
 	private String business;
 	private String data_source;
 	private String data_frequency;
